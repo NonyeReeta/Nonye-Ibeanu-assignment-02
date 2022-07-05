@@ -50,8 +50,8 @@ assignment.countEvenNumbers = countEvenNumbers;
  * @returns Array the converted temperatures in Fahrenheit
  */
 function celsiusToFahrenheit(arrayOfNumbers) {
-    const newArray = arrayOfNumbers.map(num => Math.trunc((num * 1.8) + 32))
-    return newArray;
+    const fahrenheitArray = arrayOfNumbers.map(num => Math.trunc((num * 1.8) + 32))
+    return fahrenheitArray;
 }
 assignment.celsiusToFahrenheit = celsiusToFahrenheit;
 
